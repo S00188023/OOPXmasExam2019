@@ -20,6 +20,7 @@ namespace OOPXmasExam2019
     /// </summary>
     public partial class MainWindow : Window
     {
+        public enum Position { Goalkeeper, Defender, Midfielder, Forward}
         public MainWindow()
         {
             InitializeComponent();
